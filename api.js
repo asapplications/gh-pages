@@ -9,14 +9,14 @@
     };
 
     ext.get_question_title = function(question_number) {
-        alert(question_number);
+        return "HI"
     };
 
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
             // Block type, block name, function name
-            [' ', 'Get Question Title No. %n', 'get_question', 1],
+            ['r', 'Get Question Title No. %n', 'get_question', 1],
         ]
     };
 
