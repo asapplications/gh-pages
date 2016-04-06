@@ -9,7 +9,7 @@
     };
 
     ext.get_question_title = function(question_number) {
-        return "HI"
+        return JSON.stringify("hello, folks!");
     };
 
     // Block and block menu descriptions
